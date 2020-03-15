@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-routed-spa-without-react-angular-or-vue</title>
+    <link rel="stylesheet" href="./includes/css/index.css">
+    <script src="./includes/js/app.bundle.js"></script>
+</head>
+<body>
+
+
+    <div id="header">
+        <div id="logo">LOGO</div>
+        <ul id="nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </div>
+
+
+    <div id="content-container">
+
+        <div id="home">
+            <h1>Home</h1>
+            <p>JS Routed SPA without React, Angular or VUE.</p>
+        </div>
+
+        <div id="about">
+            <h1>About</h1>
+            <p>Something about this that and the other...</p>
+        </div>
+
+        <div id="contact">
+            <h1>Contact</h1>
+            <form id="frm" onsubmit="return false;">
+                <div class="row">
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="Please enter your name" required>
+                </div>
+                <div class="row">
+                    <label for="name">Email:</label>
+                    <input type="email" placeholder="Please enter your email" required>
+                </div>
+                <button>SUBMIT</button>
+            </form>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+</html>

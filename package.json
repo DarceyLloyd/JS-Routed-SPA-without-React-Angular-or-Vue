@@ -1,0 +1,31 @@
+{
+  "name": "js-routed-spa-without-react-angular-or-vue",
+  "version": "1.0.0",
+  "description": "JS-Routed-SPA-without-React-Angular-or-Vue",
+  "private": true,
+  "scripts": {
+    "buildCss": "gulp build",
+    "watchCss": "gulp watch",
+    "build": "webpack --config webpack.prod.js",
+    "buildDev": "webpack --config webpack.dev.js"
+  },
+  "author": "darcey@aftc.io",
+  "license": "ISC",
+  "dependencies": {
+    "aftc-modules": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-classes": "^7.8.3",
+    "@babel/polyfill": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-merge": "^4.2.2"
+  }
+}
