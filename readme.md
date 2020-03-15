@@ -1,1 +1,1 @@
-# TypeScript Routed SPA Without React Angular or Vue
+# JavaScript ES6+ Webpack - Routed SPA without React Angular or Vue
